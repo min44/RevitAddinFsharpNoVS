@@ -1,11 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <Platforms>x64</Platforms>
     <AssemblyName>BimGen.Tempest.Startup</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="startup.fs" />
+    <Compile Include="Commands.fs" />
+    <Compile Include="Startup.fs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
